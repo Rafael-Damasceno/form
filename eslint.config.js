@@ -17,4 +17,11 @@ export default [
     files: ["**/*.{jsx,tsx}"],
     extends: ["plugin:react/jsx-runtime"]
   },
+  
+  {
+    "extends": [
+      "some-other-config-you-use",
+      "prettier"
+    ]
+  }
 ];
